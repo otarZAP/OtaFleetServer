@@ -1,0 +1,26 @@
+# PlatformIO build cache (never commit)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Secrets — fill these from the *.example.h templates (never commit)
+secrets.h
+**/secrets.h
+tls_cert.h
+**/tls_cert.h
+
+# SPIFFS contents built locally (uploaded firmware, manifest) — not source
+data/
+
+# Build artifacts
+*.bin
+*.elf
+*.hex
+*.map
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
